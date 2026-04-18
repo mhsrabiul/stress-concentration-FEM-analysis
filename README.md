@@ -166,10 +166,10 @@ Stress concentration is clearly visible at the hole boundary for all configurati
 #### d = 30 mm (d/D = 0.50) — Load: 40.2 kN
 
 <p align="center">
-  <img src="assets/images/vonmises_d30_Q4.png" alt="von Mises d=30mm Q4" width="45%"/>
   <img src="assets/images/vonmises_d30_Q8.png" alt="von Mises d=30mm Q8" width="45%"/>
+  <img src="assets/images/vonmises_d30_T3.png" alt="von Mises d=30mm T3" width="45%"/>
   <br>
-  <em>Left: Q4 Element &nbsp;&nbsp;|&nbsp;&nbsp; Right: Q8 Element</em>
+  <em>Left: Q8 Element &nbsp;&nbsp;|&nbsp;&nbsp; Right: T3 Element</em>
 </p>
 
 ---
@@ -227,24 +227,10 @@ SCF was computed using net-section nominal stress: `σ_nom = F / ((w − d) × t
 | 0.30 (d=18mm) | 2.38 | 2.38 | 2.38 |
 | 0.50 (d=30mm) | 2.18 | 2.18 | 2.18 |
 
-> ✅ Kt is **independent of load magnitude** under linear elastic conditions — confirming numerical consistency.
+> Kt is **independent of load magnitude** under linear elastic conditions — confirming numerical consistency.
 
-<p align="center">
-  <img src="assets/images/SCF_vs_dD_ratio.png" alt="SCF vs d/D ratio" width="600"/>
-  <br>
-  <em>Figure: Stress Concentration Factor (Kt) vs d/D ratio for all element types</em>
-</p>
-
----
 
 ### Element Type Comparison
-
-<p align="center">
-  <img src="assets/images/element_comparison_d6.png" alt="Element comparison d=6mm" width="45%"/>
-  <img src="assets/images/element_comparison_d18.png" alt="Element comparison d=18mm" width="45%"/>
-  <br>
-  <em>Max stress vs element type — d=6mm (left) and d=18mm (right)</em>
-</p>
 
 | Element | Accuracy | Notes |
 |---------|----------|-------|
