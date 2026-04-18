@@ -227,7 +227,7 @@ SCF was computed using net-section nominal stress: `σ_nom = F / ((w − d) × t
 | 0.30 (d=18mm) | 2.38 | 2.38 | 2.38 |
 | 0.50 (d=30mm) | 2.18 | 2.18 | 2.18 |
 
-> Kt is **independent of load magnitude** under linear elastic conditions — confirming numerical consistency.
+> Kt is **independent of load magnitude** under linear elastic conditions confirming numerical consistency.
 
 
 ### Element Type Comparison
@@ -251,7 +251,7 @@ SCF was computed using net-section nominal stress: `σ_nom = F / ((w − d) × t
 | 0.30 | ~2.38 | Moderate |
 | 0.50 | ~2.18 | Lower SCF |
 
-> **SCF decreases as d/D increases.** Although larger holes produce higher absolute stresses at the boundary, the nominal stress grows faster due to reduced net cross-section — resulting in a lower Kt. This is consistent with classical elasticity theory.
+> **SCF decreases as d/D increases.** Although larger holes produce higher absolute stresses at the boundary, the nominal stress grows faster due to reduced net cross-section resulting in a lower Kt. This is consistent with classical elasticity theory.
 
 ### Mesh Sensitivity
 
