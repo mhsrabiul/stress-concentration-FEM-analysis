@@ -241,7 +241,7 @@ SCF was computed using net-section nominal stress: `σ_nom = F / ((w − d) × t
 
 ---
 
-## 📈 Key Findings
+## Key Findings
 
 ### Effect of d/D Ratio on SCF
 
@@ -251,7 +251,7 @@ SCF was computed using net-section nominal stress: `σ_nom = F / ((w − d) × t
 | 0.30 | ~2.38 | Moderate |
 | 0.50 | ~2.18 | Lower SCF |
 
-> 📉 **SCF decreases as d/D increases.** Although larger holes produce higher absolute stresses at the boundary, the nominal stress grows faster due to reduced net cross-section — resulting in a lower Kt. This is consistent with classical elasticity theory.
+> **SCF decreases as d/D increases.** Although larger holes produce higher absolute stresses at the boundary, the nominal stress grows faster due to reduced net cross-section — resulting in a lower Kt. This is consistent with classical elasticity theory.
 
 ### Mesh Sensitivity
 
@@ -261,7 +261,7 @@ SCF was computed using net-section nominal stress: `σ_nom = F / ((w − d) × t
 
 ---
 
-## 🛠️ Tools & Software
+##Tools & Software
 
 | Tool | Purpose |
 |------|---------|
@@ -271,21 +271,15 @@ SCF was computed using net-section nominal stress: `σ_nom = F / ((w − d) × t
 
 ---
 
-## 📚 Theoretical Background
+##Theoretical Background
 
 For a plate with a central circular hole under uniaxial tension, classical elasticity (Kirsch, 1898) gives a theoretical SCF of **Kt = 3.0** for an infinitely wide plate. As the d/D ratio increases (finite-width plate), this value deviates due to the reduced ligament area. The Peterson stress concentration charts provide empirical corrections for finite widths, against which FEA results can be validated.
 
 ---
 
-## 🧑‍💻 Author
+##Author
 
 **Md Rabiul Hasan**  
 Department of Building Engineering & Construction Management  
 Rajshahi University of Engineering & Technology<br>
 Mail: rabiul1812019@gmail.com
-
----
-
-## 📄 License
-
-This project is submitted as part of an academic course assignment. The ABAQUS `.cae` files and report are shared for educational reference only.
