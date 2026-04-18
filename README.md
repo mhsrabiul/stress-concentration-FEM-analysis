@@ -76,13 +76,6 @@ Start → Part Creation → Material Definition → Section Assignment
       → Step Definition → Loads & BCs → Mesh Generation
       → Job Submission → Post-Processing → SCF Extraction
 ```
-
-<p align="center">
-  <img src="assets/images/abaqus_workflow.png" alt="ABAQUS Workflow" width="350"/>
-  <br>
-  <em>Figure: ABAQUS modelling workflow</em>
-</p>
-
 ### Key Modeling Decisions
 
 - **Quarter-symmetry model** used to reduce computational cost while preserving accuracy
