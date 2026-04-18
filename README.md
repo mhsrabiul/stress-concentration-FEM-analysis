@@ -261,7 +261,7 @@ SCF was computed using net-section nominal stress: `σ_nom = F / ((w − d) × t
 
 ---
 
-##Tools & Software
+## Tools & Software
 
 | Tool | Purpose |
 |------|---------|
@@ -271,13 +271,13 @@ SCF was computed using net-section nominal stress: `σ_nom = F / ((w − d) × t
 
 ---
 
-##Theoretical Background
+## Theoretical Background
 
 For a plate with a central circular hole under uniaxial tension, classical elasticity (Kirsch, 1898) gives a theoretical SCF of **Kt = 3.0** for an infinitely wide plate. As the d/D ratio increases (finite-width plate), this value deviates due to the reduced ligament area. The Peterson stress concentration charts provide empirical corrections for finite widths, against which FEA results can be validated.
 
 ---
 
-##Author
+## Author
 
 **Md Rabiul Hasan**  
 Department of Building Engineering & Construction Management  
