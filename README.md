@@ -1,15 +1,9 @@
-# 🔩 Stress Concentration Factor Analysis of Perforated Steel Plate
+# Stress Concentration Factor Analysis of Perforated Steel Plate
 ### Finite Element Analysis using ABAQUS | A36 Structural Steel | Plane-Stress
-
-![ABAQUS](https://img.shields.io/badge/Solver-ABAQUS%206.14-blue?style=flat-square)
-![Element Types](https://img.shields.io/badge/Elements-T3%20%7C%20T6%20%7C%20Q4%20%7C%20Q8-green?style=flat-square)
-![Material](https://img.shields.io/badge/Material-A36%20Steel-orange?style=flat-square)
-![Analysis](https://img.shields.io/badge/Analysis-Linear%20Elastic-red?style=flat-square)
-![License](https://img.shields.io/badge/License-Academic-lightgrey?style=flat-square)
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project presents a comprehensive **Finite Element Analysis (FEA)** of a perforated A36 structural steel plate to evaluate the **Stress Concentration Factor (SCF)** as a function of the **hole diameter-to-plate width ratio (d/D)**. The study was conducted using **ABAQUS 6.14-5** under uniaxial tensile loading, with a systematic comparison of element types and mesh refinement strategies.
 
@@ -23,7 +17,7 @@ Stress concentrations at geometric discontinuities (holes, notches) are a leadin
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 - Numerically evaluate the **Stress Concentration Factor (SCF / Kt)** for varying d/D ratios
 - Investigate the influence of **hole geometry** on stress amplification
@@ -33,7 +27,7 @@ Stress concentrations at geometric discontinuities (holes, notches) are a leadin
 
 ---
 
-## 📐 Problem Definition
+## Problem Definition
 
 ### Plate Geometry
 
@@ -73,7 +67,7 @@ Stress concentrations at geometric discontinuities (holes, notches) are a leadin
 
 ---
 
-## ⚙️ Methodology
+## Methodology
 
 ### Modeling Workflow in ABAQUS
 
@@ -145,7 +139,7 @@ All final results use the **fine mesh** configuration. Local edge seeding was ap
 
 ---
 
-## 📊 Results
+## Results
 
 ### von Mises Stress Contours
 
@@ -288,53 +282,6 @@ SCF was computed using net-section nominal stress: `σ_nom = F / ((w − d) × t
 
 ---
 
-## 📁 Repository Structure
-
-```
-stress-concentration-fea/
-│
-├── 📁 assets/
-│   └── 📁 images/                  ← All figures used in this README
-│       ├── problem_setup.png
-│       ├── abaqus_workflow.png
-│       ├── quarter_model_bc.png
-│       ├── mesh_fine.png
-│       ├── vonmises_d6_Q4.png
-│       ├── vonmises_d6_Q8.png
-│       ├── vonmises_d6_T3.png
-│       ├── vonmises_d6_T6.png
-│       ├── vonmises_d18_Q4.png
-│       ├── vonmises_d18_Q8.png
-│       ├── vonmises_d30_Q4.png
-│       ├── vonmises_d30_Q8.png
-│       ├── S11_d6_Q4.png
-│       ├── S11_d6_Q8.png
-│       ├── element_comparison_d6.png
-│       ├── element_comparison_d18.png
-│       └── SCF_vs_dD_ratio.png
-│
-├── 📁 cae_files/                   ← ABAQUS model files (.cae)
-│   ├── Plate_d06_T3.cae
-│   ├── Plate_d06_T6.cae
-│   ├── Plate_d06_Q4.cae
-│   ├── Plate_d06_Q8.cae
-│   ├── Plate_d18_T3.cae
-│   ├── Plate_d18_T6.cae
-│   ├── Plate_d18_Q4.cae
-│   ├── Plate_d18_Q8.cae
-│   ├── Plate_d30_T3.cae
-│   ├── Plate_d30_T6.cae
-│   ├── Plate_d30_Q4.cae
-│   └── Plate_d30_Q8.cae
-│
-├── 📁 report/
-│   └── Project_Report_SCF_FEA.pdf  ← Full project report
-│
-└── 📄 README.md
-```
-
----
-
 ## 🛠️ Tools & Software
 
 | Tool | Purpose |
@@ -353,10 +300,10 @@ For a plate with a central circular hole under uniaxial tension, classical elast
 
 ## 🧑‍💻 Author
 
-**[Your Name]**  
-Department of [Your Department]  
-[Your University / Institution]  
-[Your Email] | [LinkedIn Profile]
+**Md Rabiul Hasan**  
+Department of Building Engineering & Construction Management  
+Rajshahi University of Engineering & Technology<br>
+Mail: rabiul1812019@gmail.com
 
 ---
 
